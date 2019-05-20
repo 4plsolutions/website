@@ -50,11 +50,8 @@ body {
   align-items: center;
   align-content: space-between;
 }
+*/
 
-.nav-links {
-  color: white;
-  align-self: stretch;
-} */
 .navbar {
   display: flex;
   align-content: center;
@@ -78,6 +75,11 @@ body {
   padding: 10px;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
 .main-nav {
   list-style-type: none;
   display: none;
@@ -88,6 +90,7 @@ body {
   text-decoration: none;
   /* color: rgba(255, 255, 255, 0.7); */
   color: black;
+  text-decoration: none;
 }
 
 /* .main-nav li {
@@ -206,6 +209,7 @@ body {
   }
 
   .nav-links {
+    text-decoration: none;
   }
 
   .logo {
