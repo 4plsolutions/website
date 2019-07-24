@@ -227,19 +227,21 @@ body {
 
   .services {
     display: flex;
-    flex-flow: column;
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px solid black;
-    flex-flow: row wrap;
+    flex-flow: row;
+    flex-wrap: wrap;
   }
 
   .services .card {
     display: flex;
     flex-flow: column;
+    flex-basis: 25%;
     align-items: center;
     align-content: center;
-    min-height: 70vh;
+    justify-content: center;
+    min-height: 80vh;
     min-width: 15vw;
     margin-bottom: 10px;
     padding: 10px;
@@ -250,12 +252,38 @@ body {
 
   .services .card i {
     font-size: 50px;
+    margin-bottom: 10%;
   }
 
   .services .card p h4 {
     font-size: 20px;
   }
 
+  .services .card h4 {
+    font-size: 20px;
+    min-width: 100%;
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: column;
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  .service-description {
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+  }
   .youngstown {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/downtown_youngstown.jpg");;
     display: flex;
