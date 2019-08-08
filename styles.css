@@ -1,5 +1,8 @@
 body {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   max-width: 100vw;
   max-height: 100vh;
   flex-flow: column;
@@ -22,6 +25,9 @@ body {
 /* The hero image */
 .hero-image {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -48,6 +54,9 @@ body {
 /* Place text in the middle of the image */
 .hero-text {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-flow: column;
   text-align: center;
   position: absolute;
@@ -71,6 +80,9 @@ body {
 .navbar {
   position: fixed;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   align-content: center;
   flex-direction: row;
   justify-content: space-between;
@@ -87,6 +99,9 @@ body {
 .navbar-scroll {
   position: fixed;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   align-content: center;
   flex-direction: row;
   justify-content: space-between;
@@ -101,6 +116,9 @@ body {
 
 .area {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-flow: column;
   justify-content: center;
   align-content: center;
@@ -108,17 +126,26 @@ body {
 }
 .area-map {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-flow: column;
   justify-content: center;
   align-self: center;
 }
 .navbar img {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   max-width: 100%;
 }
 
 .navlink-container {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -130,6 +157,9 @@ body {
 
 .nav-img {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   align-self: center;
   max-width: 10%;
   margin: 10px;
@@ -149,6 +179,9 @@ body {
 
 .navbar ul {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -177,6 +210,9 @@ body {
 
 .main-logo {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-flow: column;
   max-height: 50vh;
   max-width: 50vw;
@@ -188,6 +224,9 @@ body {
 
 .main-logo-img {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-flow: column;
   max-height: 100%;
   max-width: 100%;
@@ -222,6 +261,9 @@ footer {
   background: black;
   color: white;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   align-content: center;
   flex-flow: column;
   justify-content: space-between;
@@ -239,6 +281,9 @@ footer img {
 
 .brands {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   max-width: 100%;
   /* transition-timing-function: ease-in-out;
   transition-delay: 5s; */
@@ -246,6 +291,9 @@ footer img {
 
 .brand-container {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   max-width: 40vh;
   max-height: 40vh;
   justify-content: center;
@@ -253,6 +301,9 @@ footer img {
 
 .contact {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-flow: column;
   align-content: center;
   align-items: center;
@@ -276,6 +327,9 @@ footer img {
 
 .icon-container {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   min-width: 100%;
   min-height: 25%;
   justify-content: center;
@@ -286,6 +340,9 @@ footer img {
 
 .products {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   align-content: space-evenly;
   flex-flow: wrap;
   align-items: center;
@@ -296,6 +353,9 @@ footer img {
 
 .navbar {
 display: flex;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
 justify-content: space-evenly;
 height: 70px;
 align-items: center;
@@ -306,6 +366,9 @@ flex-direction: row;
 
 .main-nav {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: row;
 }
 
@@ -335,6 +398,9 @@ li:hover {
 
 .services {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   justify-content: space-evenly;
   align-items: center;
   border-bottom: 1px solid black;
@@ -345,6 +411,9 @@ li:hover {
 
 .services .card {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-flow: column;
   flex-basis: 400px;
   align-items: center;
@@ -374,6 +443,9 @@ li:hover {
 
 .service-container{
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-flow: column;
   margin: 0 10% 10% 10%;
   justify-content: center;
@@ -386,6 +458,9 @@ li:hover {
   width: 100%;
   min-width: 100%;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
@@ -396,6 +471,9 @@ li:hover {
 
 .service-description {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
@@ -409,6 +487,9 @@ li:hover {
 .youngstown {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/downtown_youngstown.jpg");;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   align-content: center;
   align-items: center;
   flex-flow: column;
