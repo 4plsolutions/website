@@ -9,66 +9,110 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <img src="assets/4PLSolutions-01_cropped.jpeg">
-    <li class="nav-links"><a href="#services">Services</a></li>
-    <li class="nav-links"><a href="#products">Products</a></li>
-    <li class="nav-links"><a href="#about_us">About Us</a></li>
-    <li class="nav-links"><a href ="#contact">Contact Us</a></li>
+  <nav class="navbar" id="navbar">
+    <div class="nav-img invisible" id="nav-img">
+      <a href="#home"><img src="assets/4PLSolutions-01_cropped.jpeg"></a>
+    </div>
+    <div class="navlink-container">
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li ><a href="#products">Products</a></li>
+        <!-- <li class="nav-links"><a href="#about-us">About Us</a></li> -->
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <div class="hero-image">
+  <div class="hero-image" id="home">
     <div class="hero-text">
       <h1 class="main-slogan"></h1>
-      <div class="main-logo">
+      <div class="main-logo visible" id="main-logo">
         <img class="main-logo-img" src="assets/4PLSolutions1.png">
       </div>
-      <p</p>
+      <p></p>
     </div>
   </div>
   <section class="services" id="services">
-    <h3 class="service-description">Some 4PL Products and Services:</h3>
+    <h3 class="service-heading">Some 4PL Products and Services:</h3>
     <div class="card">
-      <i class="fas fa-industry"></i></br>
-      <div class="container">
-        <h4><b>Industrial Distribution</b></h4>
-        <p>
-          We specialize in industrial distribution focused on metalworking MRO (maintenance, repair and operations) and safety supplies
-        </p>
+      <div class="icon-container">
+        <i class="fas fa-industry"></i></br>
+      </div>
+      <div class="service-container">
+        <div class="service-description">
+          <h4><b>Industrial Distribution</b></h4>
+          <p>
+            We specialize in industrial distribution. We specialize in  metalworking, MRO (maintenance, repair and operations) and safety supplies. As industry veterans we work to understand your needs and partner with our clients to assist in
+            consulting with you and your colleagues to find the most efficient product at the most economical price. Most items ordered are received next day.
+          </p>
+        </div>
       </div>
     </div>
     <div class="card">
-      <i class="fas fa-business-time"></i></br>
-      <div class="container">
-        <h4><b>Industrial Services</b></h4>
-        <p>
-          We provide complementary services for the metalworking industry as well. Not only do we provide supplies but also offer the complimentary services that make us the total solution for your metalworking business
-        </p>
+      <div class="icon-container">
+        <i class="fas fa-business-time"></i></br>
+      </div>
+      <div class="service-container">
+        <div class="service-description">
+          <h4><b>Industrial Services</b></h4>
+          <p>
+            As your partner, we understand that your needs don’t only include products. Services are a big part of the day to day needs for most of our clients. Whether its consulting with your engineers on the correct tooling, to standing at the
+            spindle working with the operators on speeds and feeds, we truly understand your business, and are willing to work for it.<br><br>Our knowledge doesn’t end with metal working. 4PL and our staff has many clients that count on us for the
+            day to day services for their location. A sample of the services we currently provide are; Janitorial, Lawn Care, Pest Control, Porta Potty’s, Electrical, Plumbing, building services (construction)
+          </p>
+        </div>
       </div>
     </div>
     <div class="card">
-      <i class="fas fa-cash-register"></i>
-      <div class="container">
-        <h4><b>Preferred Vendor</b></h4>
-        <p>
-          We distribute metalworking tooling supplies. Below are a few of the many top quality vendors we work with
-        </p>
+      <div class="icon-container">
+        <i class="fas fa-cash-register"></i>
+      </div>
+      <div class="service-container">
+        <div class="service-description">
+          <h4><b>Preferred Vendor</b></h4>
+          <p>
+            4PL will work hard to become your preferred vendor. We are a local company owned by local businessmen that  are committed to excellence. We have agreements in place with hundreds of suppliers. A small sample of these suppliers are listed
+            below. For a complete line card please complete the contact us form below
+          </p>
+        </div>
       </div>
     </div>
-  </section>
-  <section class="products" id="products">
-    <!-- <p>Products and Companies we work with</p> -->
-    <img class="brands" src="assets/logos/ kennametal_logo.png">
-    <img class="brands" src="assets/logos/3m_logo.png">
-    <img class="brands" src="assets/logos/allied_machine_logo.png">
-    <img class="brands" src="assets/logos/brightonbest_logo.gif">
-    <img class="brands" src="assets/logos/dewalt_logo.png">
-    <img class="brands" src="assets/logos/ironclad_logo.svg">
-    <img class="brands" src="assets/logos/kimberly-clark_logo.png">
-    <img class="brands" src="assets/logos/milwaukee_logo.png">
-    <img class="brands" src="assets/logos/morse_logo.png">
-    <img class="brands" src="assets/logos/nortonabrasives_logo.png">
-    <img class="brands" src="assets/logos/wooster_logo.png">
+    <section class="products" id="products">
+      <!-- <p>Products and Companies we work with</p> -->
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/ kennametal_logo.png">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/3m_logo.png">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/allied_machine_logo.png">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/brightonbest_logo.gif">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/dewalt_logo.png">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/ironclad_logo.svg">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/kimberly-clark_logo.png">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/milwaukee_logo.png">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/morse_logo.png">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/nortonabrasives_logo.png">
+      </div>
+      <div class="brand-container">
+        <img class="brands" src="assets/logos/wooster_logo.png">
+      </div>
+    </section>
   </section>
   <section class="contact" id="contact">
     <h3>Contact Us</h3>
@@ -81,9 +125,14 @@
       <input class="submit" type="submit" value="Submit">
     </form>
   </section>
+  <section class="area">
+    <div class="area-map">
+      <h3>Current Service Area Includes:</h3>
+      <img src="assets/service_map.png">
+    </div>
+  </section>
   <footer>
-    <img src="assets/neo_map.png">
-    <p>4PL Solutions</br>P.O. Box ####</br>McDonald, OH #####</br>(330) 610-1062</br> &#169; 2019</p>
+    <p>4PL Solutions<br> PO Box 339<br>McDonald, OH 44437-9998<br>(330) 610-1062<br> &#169; 2019</p>
   </footer>
 </body>
 
