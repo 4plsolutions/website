@@ -1,14 +1,19 @@
 window.onscroll = function() {shrinkUp()};
 
 function shrinkUp() {
+  let mainLogo = document.getElementById("main-logo");
+  let navImg = document.getElementById("nav-img");
+  let navbar = document.getElementById("navbar");
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.getElementById("main-logo").className = "main-logo invisible";
-    document.getElementById("nav-img").className = "nav-img visible";
-    document.getElementById("navbar").className = "navbar invisible";
+    mainLogo.className = "main-logo invisible";
+    navImg.className = "nav-img visible";
+    navImg.style.display = "flex";
+    navbar.className = "navbar invisible";
   } else {
-    document.getElementById("main-logo").className = "main-logo visible ";
-    document.getElementById("nav-img").className = "nav-img invisible";
-    document.getElementById("navbar").className = "navbar visible";
+    mainLogo.className = "main-logo visible ";
+    navImg.className = "nav-img invisible";
+    navImg.style.display = "none";
+    navbar.className = "navbar visible";
 
 
   }
