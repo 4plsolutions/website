@@ -167,7 +167,24 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: -moz-box;
-  max-width: 100%;
+  max-width: 50%;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar img {
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -moz-box;
+      max-width: 100%;
+    }
 }
 
 .navlink-container {
@@ -299,7 +316,7 @@ body {
 
 
 footer {
-  background: black;
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   display: flex;
   display: -webkit-box;
@@ -311,6 +328,7 @@ footer {
   -webkit-flex-flow: column;
   justify-content: space-between;
   align-items: center;
+  min-width: 100%;
 }
 
 footer p {
