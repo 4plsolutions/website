@@ -1,36 +1,43 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <title>4PL Solutions</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="js/js.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="We specialize in metalworking, MRO (maintenance,repair and operations) and safety supplies. As industry veterans we work to understand your needs and partner with our clients to assist in consulting with you and your colleagues to find the most efficient product at the most economical price. Most items ordered are received next day.">
-</head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <title>4PL Solutions</title>
+    <meta name="description" content="We specialize in metalworking, MRO (maintenance,repair and operations) and safety supplies. As industry veterans we work to understand your needs and partner with our clients to assist in consulting with you and your colleagues to find the most efficient product at the most economical price. Most items ordered are received next day.">
+  </head>
 
 <body>
-  <nav class="navbar" id="navbar">
-    <div class="nav-img invisible" id="nav-img">
-      <a href="#home"><img src="assets/4PLSolutions-01_cropped.jpeg" alt="4pl logo"></a>
-    </div>
-    <div class="navlink-container">
-      <ul class="nav-links">
-        <li><a href="#services">Services</a></li>
-        <li ><a href="#products">Products</a></li>
-        <!-- <li class="nav-links"><a href="#about-us">About Us</a></li> -->
-        <li><a href="#contact">Contact Us</a></li>
+  <nav class="w-100 d-inline-flex flex-row flex-nowrap navbar navbar-expand-lg navbar-expand-xl expand-md bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand d-flex flex-start p-0" href="#">
+      <img src="assets/4PLSolutions-01_cropped.jpeg" class="img-fluid w-25" alt="4pl logo">
+    </a>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse col-8" id="collapsibleNavbar">
+      <ul class="navbar-nav d-flex flex-fill justify-content-around">
+        <li class= "nav-item pr-2 pl-2" data-toggle="collapse" data-target="#collapsibleNavbar"><a class="text-white" href="#services">Services</a></li>
+        <li class= "nav-item pr-2 pl-2" data-toggle="collapse" data-target="#collapsibleNavbar"><a class="text-white" href="#products">Products</a></li>
+        <li class= "nav-item pr-2 pl-2" data-toggle="collapse" data-target="#collapsibleNavbar"><a class="text-white" href="#contact">Contact Us</a></li>
       </ul>
     </div>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   </nav>
 
   <section class="hero-image" id="home">
     <div class="hero-text">
       <h1 class="main-slogan">4PL Solutions, your preferred supplier</h1>
       <div class="main-logo visible" id="main-logo">
-        <img class="main-logo-img" src="assets/4PLSolutions1.png" alt="4pl aolutions logo">
+        <!-- <img class="main-logo-img" src="assets/4PLSolutions1.png" alt="4pl solutions logo"> -->
       </div>
       <p></p>
     </div>
@@ -137,6 +144,12 @@
   <footer>
     <p>4PL Solutions<br> PO Box 339<br>McDonald, OH 44437-9998<br>(330) 610-1062<br> &#169; 2019</p>
   </footer>
+  <!-- Optional JavaScript -->
+    <script src="js/js.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
