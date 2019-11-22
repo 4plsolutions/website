@@ -35,7 +35,7 @@
   </nav>
 
 
-  <section class="jumbotron min-vw-100 min-vh-100 mb-0" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/bg-4.jpeg); background-size: 100% 100%;" id="home">
+  <section class="jumbotron min-vw-100 min-vh-100 mb-0"  id="home" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/bg-4.jpeg); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed;">
     <div class="d-flex flex-column justify-content-center">
       <div class="d-flex justify-content-center align-items-center" id="main-logo">
         <img class="img-fluid w-50 h-50" src="assets/4PLSolutions1.png" alt="4pl solutions logo">
@@ -46,9 +46,9 @@
 
   <section class="d-flex bg-light mt-0 pt-0" id="services">
     <div class="d-flex flex-column w-100 align-items-center">
-    <h3 class="p-5 mt-2 mb-5 bg-dark text-white rounded-pill">
+    <h2 class="p-5 mt-2 mb-5 bg-dark text-white rounded-pill">
       <b>Some 4PL Products and Services:</b>
-    </h3>
+    </h2>
     <div class="card-group justify-content-around">
       <div class="card border-dark mb-3 bg-dark text-light rounded-pill text-center col col-10 col-xl-3 col-lg-3 col-md-3">
         <div class="card-body bg-light text-dark rounded-pill">
@@ -96,8 +96,7 @@
     </div>
   </section>
 
-
-  <section class="d-flex flex-wrap justify-content-around bg-dark" id="products">
+  <section class="d-flex flex-wrap justify-content-around bg-dark pt-5 pb-5" id="products">
           <!-- <p>Products and Companies we work with</p> -->
           <div class="col col-3 pt-2 pb-2">
             <img class="img-fluid" src="assets/logos/kennametal_logo.png" alt="kennametal logo">
@@ -134,9 +133,37 @@
           </div>
         </section>
 
-  <section class="contact" id="contact">
+
+  <section  class="d-flex flex-column align-items-center bg-light pt-5 pb-5" id="contact">
+    <form class="col-12 col-md-10 col-lg-10 col-xl-10 text-center">
+      <div class="form-group col-12 col-md-10 col-lg-10 col-xl-10">
+        <h2 class="text-center pt-4 pb-4 bg-dark text-white rounded-pill"><b>Contact Us</b></h2>
+      </div>
+      <div class="form-group col-12 col-md-10 col-lg-10 col-xl-10">
+        <input type="text" class="form-control-lg rounded-pill col-10 text-center" id="fullName" placeholder="Full Name">
+      </div>
+      <div class="form-group col-12 col-md-10 col-lg-10 col-xl-10">
+        <input type="text" class="form-control-lg rounded-pill col-10 text-center" id="companyName" placeholder="Company Name">
+      </div>
+      <div class="form-group col-12 col-md-10 col-lg-10 col-xl-10">
+        <input type="text" class="form-control-lg rounded-pill col-10 text-center" id="phone" placeholder="Phone">
+      </div>
+      <div class="form-group col-12 col-md-10 col-lg-10 col-xl-10">
+        <input type="email" class="form-control-lg rounded-pill col-10 text-center" id="email" aria-describedby="emailHelp" placeholder="Email">
+      </div>
+      <div class="form-group col-12 col-md-10 col-lg-10 col-xl-10">
+        <input type="text" class="form-control-lg rounded-pill col-10 text-center" id="serviceDescription" placeholder="Requested Services?">
+      </div>
+      <div class="col text-center col-12 col-md-10 col-lg-10 col-xl-10">
+        <button type="submit" class="btn btn-secondary btn-lg col-8 rounded-pill text-center">Submit</button>
+      </div>
+    </form>
+</section>
+
+
+  <!-- <section class="contact" id="contact">
     <h3>Contact Us</h3>
-    <div class="form-container">
+    <div class="form-group">
       <form class="form-content" action="/action_page.php">
         <input type="text" name="fname" placeholder="Full Name"><br>
         <input type="text" name="cname" placeholder="Company Name"><br>
@@ -146,7 +173,14 @@
         <input class="submit" type="submit" value="Submit">
       </form>
     </div>
-  </section>
+  </section> -->
+
+
+
+
+
+
+
   <section class="area">
     <div class="area-map">
       <h3>Current Service Area Includes:</h3>
